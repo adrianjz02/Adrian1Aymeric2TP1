@@ -1,10 +1,10 @@
-<div class="container">
+<div class="container" [style.background-color]="backgroundColor">
   <div class="square">
     <div class="windows-logo">
-      <span class="window window1" (click)="changeBackgroundColor('#f35325')"></span>
-      <span class="window window2" (click)="changeBackgroundColor('#81bc06')"></span>
-      <span class="window window3" (click)="changeBackgroundColor('#05a6f0')"></span>
-      <span class="window window4" (click)="changeBackgroundColor('#ffba08')"></span>
+      <span class="window window1" (click)="changeBackgroundColor('#f35325')" aria-label="Change color to red"></span>
+      <span class="window window2" (click)="changeBackgroundColor('#81bc06')" aria-label="Change color to green"></span>
+      <span class="window window3" (click)="changeBackgroundColor('#05a6f0')" aria-label="Change color to blue"></span>
+      <span class="window window4" (click)="changeBackgroundColor('#ffba08')" aria-label="Change color to yellow"></span>
     </div>
   </div>
 </div>

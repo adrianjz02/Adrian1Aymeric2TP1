@@ -8,8 +8,11 @@ import { Component } from '@angular/core';
   styleUrl: './square.component.scss'
 })
 export class SquareComponent {
+
+  backgroundColor: string = '#ffffff';
+
   changeBackgroundColor(color: string): void {
-    document.body.style.backgroundColor = color;
+    this.backgroundColor = color;
   }
 
 }
