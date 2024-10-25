@@ -1,4 +1,3 @@
-/* Style du carré */
 .square {
   width: 400px;
   height: 400px;
@@ -8,7 +7,6 @@
   align-items: center;
 }
 
-/* Conteneur du logo Windows */
 .windows-logo {
   width: 80%;
   height: 80%;
@@ -17,15 +15,13 @@
   gap: 5px;
 }
 
-/* Style pour chaque fenêtre */
 .window {
   width: 100%;
   height: 100%;
-  background-color: #0078d4; /* Couleur du logo Windows */
+  background-color: #0078d4;
 }
 
-/* Couleurs et styles des fenêtres */
-.window1 { background-color: #f35325; } /* Rouge */
-.window2 { background-color: #81bc06; } /* Vert */
-.window3 { background-color: #05a6f0; } /* Bleu */
-.window4 { background-color: #ffba08; } /* Jaune */
+.window1 { background-color: #f35325; }
+.window2 { background-color: #81bc06; }
+.window3 { background-color: #05a6f0; }
+.window4 { background-color: #ffba08; }
