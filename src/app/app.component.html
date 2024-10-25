@@ -1,3 +1,5 @@
 <app-header></app-header>
-<app-square></app-square>
+<div [style.background-color]="backgroundColor" style="height: 100vh;">
+  <app-square (colorChange)="onColorChange($event)"></app-square>
+</div>
 <app-footer></app-footer>

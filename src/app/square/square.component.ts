@@ -1,18 +1,18 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-square',
   standalone: true,
   imports: [],
   templateUrl: './square.component.html',
-  styleUrl: './square.component.scss'
+  styleUrls: ['./square.component.scss']
 })
 export class SquareComponent {
 
-  backgroundColor: string = '#ffffff';
+  @Output() colorChange = new EventEmitter<string>();
 
   changeBackgroundColor(color: string): void {
-    this.backgroundColor = color;
+    this.colorChange.emit(color);
   }
 
 }

@@ -13,4 +13,10 @@ import {SquareComponent} from "./square/square.component";
 })
 export class AppComponent {
   title = 'Adrian1Aymeric2TP1';
+
+  backgroundColor: string = '#ffffff';
+
+  onColorChange(color: string): void {
+    this.backgroundColor = color;
+  }
 }
