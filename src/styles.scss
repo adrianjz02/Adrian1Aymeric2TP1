@@ -1,3 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
 
 
+html, body {
+  height: 100%;                  /* Assure que le `html` et le `body` prennent toute la hauteur */
+  margin: 0;                     /* Supprime les marges par défaut */
+  display: flex;                 /* Utilise Flexbox */
+  flex-direction: column;        /* Disposition en colonne */
+}
+
+app-root {
+  display: flex;                 /* Utilise Flexbox pour `app-root` */
+  flex-direction: column;        /* Disposition en colonne */
+  min-height: 100vh;            /* Assure que `app-root` prend toute la hauteur de la fenêtre */
+}
